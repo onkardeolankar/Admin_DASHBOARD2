@@ -85,7 +85,7 @@ function App() {
       "age":"21",
       "division":"A",
       "dateofbirth":"14-02-2001",
-      "address":"Nath Villa, Ahmednagar, Maharashtra",
+      "address":"South Villa, Ahmednagar, Maharashtra",
       "phonenumber":"7972566341",
     },
   ]);
