@@ -1,0 +1,135 @@
+body{
+    margin: 0px;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    background-image: url("building.jpg");
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+#navbar{
+    background-color: rgb(64, 143, 255);
+    color: white;
+    text-align: center;
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+    font-family:serif;
+    padding: 16px;
+    font-size: 42px;
+    letter-spacing: 2px;
+    text-shadow: 2px 2px 4px #000000;
+
+}
+#btn{
+    background-color: rgb(64, 143, 255);
+    color:white;
+    width: 200px;
+    height: 45px;
+}
+#btn:hover{
+    background-color:  rgb(0, 106, 255);
+    cursor: pointer;
+}
+#uppermain{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    margin-top: 120px;
+    gap: 300px;
+}
+#btn{
+    margin: 20px;
+    border-radius: 5px;
+    font-size: 20px;
+}
+table, th, td {
+    border: 1px solid;
+    /* margin: 20px; */
+  }
+  th,td{
+    font-size: large;
+    text-align: center;
+    padding: 8px;
+    background-color:white;
+  }
+  table{
+    width: 1300px;
+    /* margin-left: 20px; */
+    margin: 100px auto;
+  }
+  #allstudents{
+    margin-left: 400px;
+  }
+
+  #add{
+    border-radius: 10px;
+    padding: 5px;
+    border: 1px solid;
+    font-Size:25px;
+    border: 3px solid black;
+    padding: 20px;
+    backdrop-filter: blur(20px);
+    color: black;
+    width: 350px;
+    height: 500px;
+    grid-row: 2/3;
+    grid-column: 2/3;
+    margin: 150px auto;
+    margin-top: 50px;
+    display: grid;
+    grid-template-rows: 1fr 6fr 1fr;
+  }
+  input{
+    width: 340px;
+    height: 37px;
+    font-size: medium;
+    border-radius: 5px;
+    margin-top: 17.5px;
+  }
+  input:focus{
+    background-color: rgb(255, 243, 229);
+  }
+  #btn1{
+    margin-top: 25px;
+    border-radius: 5px;
+    font-size: 20px;
+    background-color: rgb(64, 143, 255);
+    color:white;
+    width: 340px;
+    height: 40px;
+}
+#btn2{
+  margin-top: 15px;
+  border-radius: 5px;
+  font-size: 20px;
+  background-color: rgb(255, 94, 94);
+  color:white;
+  width: 340px;
+  height: 40px;
+}
+#heading{
+  font-size: 30px;
+  color: rgb(255, 255, 255);
+  text-align: center;
+  font-family: cursive;
+  margin-top: 20px;
+  text-shadow: 2px 2px 4px #000000;
+}
+#btn1:hover{
+  background-color: rgb(0, 0, 223);
+  cursor: pointer;
+}
+
+#btn2:hover{
+  background-color:rgb(221, 0, 0);
+  cursor: pointer;
+}
+#plus{
+  padding-right: 15px;
+}
+/* @media screen and (max-width: 480px) {
+  body {
+    
+  }
+} */
+#home{
+  position:absolute;
+  left: 10px;
+}
