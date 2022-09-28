@@ -79,6 +79,15 @@ function App() {
       "address":"Janori, Nashik, Maharashtra",
       "phonenumber":"8446695368",
     },
+    {
+      "id": 4,
+      "name":"Vaishnavi Lawande",
+      "age":"21",
+      "division":"A",
+      "dateofbirth":"14-02-2001",
+      "address":"Nath Villa, Ahmednagar, Maharashtra",
+      "phonenumber":"7972566341",
+    },
   ]);
   return (
     <>
